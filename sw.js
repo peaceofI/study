@@ -4,7 +4,20 @@ const urlsToCache = [
   "/study/",
   "/study/index.html",
   "/study/style.css",
-  "/study/script.js"
+  "/study/script.js",
+  '/study/offline.html',
+  '/study/manifest.json',
+  '/study/components/dashboard.js',
+  '/study/components/calendar.js',
+  '/study/components/books.js',
+  '/study/components/notes.js',
+  '/study/components/flashcards.js',
+  '/study/storage/database.js',
+  '/study/utils/helpers.js',
+  '/study/utils/spacedRepetition.js',
+  'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap',
+  'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css',
+  'https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js'
 ];
 
 // Install Service Worker
