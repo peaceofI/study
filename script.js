@@ -28,6 +28,10 @@ function setupNavigation() {
     });
 }
 
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/study/sw.js")
+    .then(() => console.log("Service Worker Registered"));
+}
 function loadTab(tab) {
     currentTab = tab;
     document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
