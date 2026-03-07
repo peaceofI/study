@@ -2,7 +2,7 @@
   "name": "Study Core",
   "short_name": "StudyCore",
   "description": "AI‑powered study OS – books, notes, flashcards, calendar, and more.",
-  "start_url": "./",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#0b0c15",
   "theme_color": "#00f0ff",
